@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'jira_tool'
+
+jira = JiraTool::Jira.new
+jira.execute

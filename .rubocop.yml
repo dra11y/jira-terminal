@@ -1,0 +1,17 @@
+require: rubocop-rails
+
+AllCops:
+  Exclude:
+    - db/**/*
+    - tmp/**/*
+    - vendor/**/*
+  TargetRubyVersion: 2.6.5
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Rails:
+  Enabled: false
